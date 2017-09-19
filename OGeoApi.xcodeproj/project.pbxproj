@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ACD84AD9A22A700AE918BC5 /* libPods-OGeoApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF6496ECEA8D69703C0C86F /* libPods-OGeoApi.a */; };
+		696E38931F5FAA0B00078F1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 696E38921F5FAA0B00078F1E /* main.m */; };
+		696E38961F5FAA0B00078F1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 696E38951F5FAA0B00078F1E /* AppDelegate.m */; };
+		696E38991F5FAA0B00078F1E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696E38981F5FAA0B00078F1E /* LoginViewController.m */; };
+		696E389C1F5FAA0B00078F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696E389A1F5FAA0B00078F1E /* Main.storyboard */; };
+		696E389E1F5FAA0B00078F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696E389D1F5FAA0B00078F1E /* Assets.xcassets */; };
+		696E38A11F5FAA0B00078F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696E389F1F5FAA0B00078F1E /* LaunchScreen.storyboard */; };
+		69B3F8081F5FAD0F003A8EEC /* AFJSONRPCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B3F8071F5FAD0F003A8EEC /* AFJSONRPCClient.m */; };
+		69B3F80B1F5FAD76003A8EEC /* OdokusGeoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B3F80A1F5FAD76003A8EEC /* OdokusGeoApi.m */; };
+		69B3F80E1F5FB386003A8EEC /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B3F80D1F5FB386003A8EEC /* DemoViewController.m */; };
+		69B3F8101F5FDF2D003A8EEC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B3F80F1F5FDF2D003A8EEC /* CoreLocation.framework */; };
+		69B3F8121F5FDF34003A8EEC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B3F8111F5FDF34003A8EEC /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AF6496ECEA8D69703C0C86F /* libPods-OGeoApi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OGeoApi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		557E6A86BA5793018F218C3E /* Pods-OGeoApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGeoApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OGeoApi/Pods-OGeoApi.debug.xcconfig"; sourceTree = "<group>"; };
+		696E388E1F5FAA0B00078F1E /* OGeoApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OGeoApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696E38921F5FAA0B00078F1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		696E38941F5FAA0B00078F1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		696E38951F5FAA0B00078F1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		696E38971F5FAA0B00078F1E /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		696E38981F5FAA0B00078F1E /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		696E389B1F5FAA0B00078F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		696E389D1F5FAA0B00078F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		696E38A01F5FAA0B00078F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		696E38A21F5FAA0B00078F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B3F8061F5FAD0F003A8EEC /* AFJSONRPCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRPCClient.h; sourceTree = "<group>"; };
+		69B3F8071F5FAD0F003A8EEC /* AFJSONRPCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRPCClient.m; sourceTree = "<group>"; };
+		69B3F8091F5FAD76003A8EEC /* OdokusGeoApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OdokusGeoApi.h; sourceTree = "<group>"; };
+		69B3F80A1F5FAD76003A8EEC /* OdokusGeoApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OdokusGeoApi.m; sourceTree = "<group>"; };
+		69B3F80C1F5FB386003A8EEC /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		69B3F80D1F5FB386003A8EEC /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		69B3F80F1F5FDF2D003A8EEC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		69B3F8111F5FDF34003A8EEC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D98AF8E48116A519158D091D /* Pods-OGeoApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OGeoApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-OGeoApi/Pods-OGeoApi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696E388B1F5FAA0B00078F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B3F8101F5FDF2D003A8EEC /* CoreLocation.framework in Frameworks */,
+				69B3F8121F5FDF34003A8EEC /* MapKit.framework in Frameworks */,
+				1ACD84AD9A22A700AE918BC5 /* libPods-OGeoApi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		696E38851F5FAA0B00078F1E = {
+			isa = PBXGroup;
+			children = (
+				696E38901F5FAA0B00078F1E /* OGeoApi */,
+				696E388F1F5FAA0B00078F1E /* Products */,
+				90F825E4D548D04614FE9DCC /* Pods */,
+				76A8050B23619468E2A45A05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		696E388F1F5FAA0B00078F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696E388E1F5FAA0B00078F1E /* OGeoApi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696E38901F5FAA0B00078F1E /* OGeoApi */ = {
+			isa = PBXGroup;
+			children = (
+				696E38941F5FAA0B00078F1E /* AppDelegate.h */,
+				696E38951F5FAA0B00078F1E /* AppDelegate.m */,
+				69B3F8091F5FAD76003A8EEC /* OdokusGeoApi.h */,
+				69B3F80A1F5FAD76003A8EEC /* OdokusGeoApi.m */,
+				696E38971F5FAA0B00078F1E /* LoginViewController.h */,
+				696E38981F5FAA0B00078F1E /* LoginViewController.m */,
+				69B3F80C1F5FB386003A8EEC /* DemoViewController.h */,
+				69B3F80D1F5FB386003A8EEC /* DemoViewController.m */,
+				69B3F8061F5FAD0F003A8EEC /* AFJSONRPCClient.h */,
+				69B3F8071F5FAD0F003A8EEC /* AFJSONRPCClient.m */,
+				696E389A1F5FAA0B00078F1E /* Main.storyboard */,
+				696E389D1F5FAA0B00078F1E /* Assets.xcassets */,
+				696E389F1F5FAA0B00078F1E /* LaunchScreen.storyboard */,
+				696E38A21F5FAA0B00078F1E /* Info.plist */,
+				696E38911F5FAA0B00078F1E /* Supporting Files */,
+			);
+			path = OGeoApi;
+			sourceTree = "<group>";
+		};
+		696E38911F5FAA0B00078F1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				696E38921F5FAA0B00078F1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76A8050B23619468E2A45A05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B3F8111F5FDF34003A8EEC /* MapKit.framework */,
+				69B3F80F1F5FDF2D003A8EEC /* CoreLocation.framework */,
+				4AF6496ECEA8D69703C0C86F /* libPods-OGeoApi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90F825E4D548D04614FE9DCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				557E6A86BA5793018F218C3E /* Pods-OGeoApi.debug.xcconfig */,
+				D98AF8E48116A519158D091D /* Pods-OGeoApi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696E388D1F5FAA0B00078F1E /* OGeoApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696E38A51F5FAA0B00078F1E /* Build configuration list for PBXNativeTarget "OGeoApi" */;
+			buildPhases = (
+				613B2593D97D4F83294D1741 /* [CP] Check Pods Manifest.lock */,
+				696E388A1F5FAA0B00078F1E /* Sources */,
+				696E388B1F5FAA0B00078F1E /* Frameworks */,
+				696E388C1F5FAA0B00078F1E /* Resources */,
+				1CC0D853D79F0A6049F92834 /* [CP] Embed Pods Frameworks */,
+				B567F9C5B17DF0B6D04E9408 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OGeoApi;
+			productName = OGeoApi;
+			productReference = 696E388E1F5FAA0B00078F1E /* OGeoApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696E38861F5FAA0B00078F1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hansenhof _electronic";
+				TargetAttributes = {
+					696E388D1F5FAA0B00078F1E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7Q596E9VSH;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 696E38891F5FAA0B00078F1E /* Build configuration list for PBXProject "OGeoApi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 696E38851F5FAA0B00078F1E;
+			productRefGroup = 696E388F1F5FAA0B00078F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696E388D1F5FAA0B00078F1E /* OGeoApi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696E388C1F5FAA0B00078F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696E38A11F5FAA0B00078F1E /* LaunchScreen.storyboard in Resources */,
+				696E389E1F5FAA0B00078F1E /* Assets.xcassets in Resources */,
+				696E389C1F5FAA0B00078F1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CC0D853D79F0A6049F92834 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OGeoApi/Pods-OGeoApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		613B2593D97D4F83294D1741 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B567F9C5B17DF0B6D04E9408 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OGeoApi/Pods-OGeoApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696E388A1F5FAA0B00078F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B3F80B1F5FAD76003A8EEC /* OdokusGeoApi.m in Sources */,
+				696E38991F5FAA0B00078F1E /* LoginViewController.m in Sources */,
+				69B3F8081F5FAD0F003A8EEC /* AFJSONRPCClient.m in Sources */,
+				69B3F80E1F5FB386003A8EEC /* DemoViewController.m in Sources */,
+				696E38961F5FAA0B00078F1E /* AppDelegate.m in Sources */,
+				696E38931F5FAA0B00078F1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		696E389A1F5FAA0B00078F1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696E389B1F5FAA0B00078F1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		696E389F1F5FAA0B00078F1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696E38A01F5FAA0B00078F1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		696E38A31F5FAA0B00078F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		696E38A41F5FAA0B00078F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696E38A61F5FAA0B00078F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 557E6A86BA5793018F218C3E /* Pods-OGeoApi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Q596E9VSH;
+				INFOPLIST_FILE = OGeoApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.hansenhof.OGeoApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		696E38A71F5FAA0B00078F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98AF8E48116A519158D091D /* Pods-OGeoApi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Q596E9VSH;
+				INFOPLIST_FILE = OGeoApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.hansenhof.OGeoApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696E38891F5FAA0B00078F1E /* Build configuration list for PBXProject "OGeoApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696E38A31F5FAA0B00078F1E /* Debug */,
+				696E38A41F5FAA0B00078F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696E38A51F5FAA0B00078F1E /* Build configuration list for PBXNativeTarget "OGeoApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696E38A61F5FAA0B00078F1E /* Debug */,
+				696E38A71F5FAA0B00078F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 696E38861F5FAA0B00078F1E /* Project object */;
+}

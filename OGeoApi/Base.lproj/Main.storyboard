@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="m8B-Sp-rCC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--odokus GeoApi Example-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="odokus GeoApi Example" id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7bd-J6-DUS">
+                                <rect key="frame" x="22" y="122" width="337" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5JZ-ng-Kfb">
+                                <rect key="frame" x="22" y="189" width="337" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="odokus GeoApi Example" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6g-Qs-ki1">
+                                <rect key="frame" x="22" y="64" width="337" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="odokus user" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XuA-vs-wnO">
+                                <rect key="frame" x="22" y="93" width="95" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="odokus password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rft-gB-kje">
+                                <rect key="frame" x="22" y="160" width="135" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uG4-5p-0yl">
+                                <rect key="frame" x="115" y="239" width="150" height="40"/>
+                                <color key="backgroundColor" red="0.70547503498598441" green="1" blue="0.91796246401746906" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ocP-sJ-aTh"/>
+                                </constraints>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T2x-Uj-5CN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5JZ-ng-Kfb" firstAttribute="top" secondItem="Rft-gB-kje" secondAttribute="bottom" constant="8" id="4Ze-G0-HeZ"/>
+                            <constraint firstItem="Rft-gB-kje" firstAttribute="top" secondItem="7bd-J6-DUS" secondAttribute="bottom" constant="8" id="837-pC-UBm"/>
+                            <constraint firstItem="d6g-Qs-ki1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="90W-D9-UbS"/>
+                            <constraint firstItem="XuA-vs-wnO" firstAttribute="top" secondItem="d6g-Qs-ki1" secondAttribute="bottom" constant="8" id="ATc-AF-g4M"/>
+                            <constraint firstItem="7bd-J6-DUS" firstAttribute="top" secondItem="XuA-vs-wnO" secondAttribute="bottom" constant="8" id="BGf-0h-Msm"/>
+                            <constraint firstItem="5JZ-ng-Kfb" firstAttribute="leading" secondItem="Rft-gB-kje" secondAttribute="leading" id="GYh-ZC-FtO"/>
+                            <constraint firstItem="XuA-vs-wnO" firstAttribute="leading" secondItem="d6g-Qs-ki1" secondAttribute="leading" id="MPs-QK-O4u"/>
+                            <constraint firstItem="uG4-5p-0yl" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="PTa-mS-vGm"/>
+                            <constraint firstItem="Rft-gB-kje" firstAttribute="leading" secondItem="XuA-vs-wnO" secondAttribute="leading" id="QPk-7v-4ek"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5JZ-ng-Kfb" secondAttribute="trailing" id="VUy-hV-dyL"/>
+                            <constraint firstItem="7bd-J6-DUS" firstAttribute="leading" secondItem="XuA-vs-wnO" secondAttribute="leading" id="g3I-im-5WZ"/>
+                            <constraint firstItem="d6g-Qs-ki1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="6" id="hpe-4A-kuR"/>
+                            <constraint firstItem="uG4-5p-0yl" firstAttribute="top" secondItem="5JZ-ng-Kfb" secondAttribute="bottom" constant="20" id="hxZ-53-w2Y"/>
+                            <constraint firstItem="uG4-5p-0yl" firstAttribute="centerX" secondItem="5JZ-ng-Kfb" secondAttribute="centerX" id="imO-2w-3Pl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="d6g-Qs-ki1" secondAttribute="trailing" id="nlc-LG-TH5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7bd-J6-DUS" secondAttribute="trailing" id="rgK-qB-Rdg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="EEn-J1-lWo"/>
+                    <connections>
+                        <outlet property="passTextField" destination="5JZ-ng-Kfb" id="xKb-AG-2kc"/>
+                        <outlet property="userTextField" destination="7bd-J6-DUS" id="dxJ-mb-1n9"/>
+                        <segue destination="851-FL-XxG" kind="show" identifier="passLogin" id="eeF-jD-5ua"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--odokus GeoApi Example-->
+        <scene sceneID="8Qp-E2-wO5">
+            <objects>
+                <navigationController title="odokus GeoApi Example" id="m8B-Sp-rCC" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ph5-bo-DlV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3Vv-Fo-zOa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qJX-dI-HW3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-607" y="139"/>
+        </scene>
+        <!--Demo View Controller-->
+        <scene sceneID="Wsu-7w-4Sn">
+            <objects>
+                <viewController id="851-FL-XxG" customClass="DemoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jsC-OL-KsL"/>
+                        <viewControllerLayoutGuide type="bottom" id="C4m-oO-ELG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kzp-fn-cWa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oy-4l-7tz">
+                                <rect key="frame" x="16" y="72" width="165" height="30"/>
+                                <color key="backgroundColor" red="0.46274509800000002" green="0.69411764710000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Load from Server">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loadEventsButtonPushed:" destination="851-FL-XxG" eventType="touchUpInside" id="fp6-wI-qSb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Hd-jr-seP">
+                                <rect key="frame" x="194" y="72" width="165" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Save current location">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="insertNewGeoEvent:" destination="851-FL-XxG" eventType="touchUpInside" id="PhR-IR-Z1E"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U5A-DK-P3j">
+                                <rect key="frame" x="0.0" y="110" width="375" height="267"/>
+                            </mapView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BCI-up-T4y">
+                                <rect key="frame" x="0.0" y="385" width="375" height="282"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="odokusCell" textLabel="3j2-qf-7vS" detailTextLabel="16w-hw-11J" style="IBUITableViewCellStyleSubtitle" id="v3I-sC-e8Y">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="v3I-sC-e8Y" id="XIK-Ol-AOk">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3j2-qf-7vS">
+                                                    <rect key="frame" x="15" y="5" width="33.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="16w-hw-11J">
+                                                    <rect key="frame" x="15" y="25.5" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="851-FL-XxG" id="hIg-bI-xJh"/>
+                                    <outlet property="delegate" destination="851-FL-XxG" id="1Cf-Hv-rYP"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BCI-up-T4y" firstAttribute="leading" secondItem="kzp-fn-cWa" secondAttribute="leading" id="36f-J8-ykY"/>
+                            <constraint firstItem="BCI-up-T4y" firstAttribute="top" secondItem="U5A-DK-P3j" secondAttribute="bottom" constant="8" id="4lh-h1-4fp"/>
+                            <constraint firstItem="U5A-DK-P3j" firstAttribute="centerX" secondItem="kzp-fn-cWa" secondAttribute="centerX" id="D87-Jw-8i2"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="6oy-4l-7tz" secondAttribute="leading" id="DY5-nK-DGU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Hd-jr-seP" secondAttribute="trailing" id="GUf-4T-jOd"/>
+                            <constraint firstItem="U5A-DK-P3j" firstAttribute="top" secondItem="6oy-4l-7tz" secondAttribute="bottom" constant="8" id="Qag-sk-Wn5"/>
+                            <constraint firstItem="6oy-4l-7tz" firstAttribute="top" secondItem="jsC-OL-KsL" secondAttribute="bottom" constant="8" id="Vqn-c9-15q"/>
+                            <constraint firstItem="1Hd-jr-seP" firstAttribute="width" secondItem="kzp-fn-cWa" secondAttribute="width" multiplier="0.44" id="Y90-fB-Emr"/>
+                            <constraint firstItem="U5A-DK-P3j" firstAttribute="width" secondItem="kzp-fn-cWa" secondAttribute="width" id="cAz-dX-BU5"/>
+                            <constraint firstItem="6oy-4l-7tz" firstAttribute="width" secondItem="kzp-fn-cWa" secondAttribute="width" multiplier="0.44" id="dxh-II-RJi"/>
+                            <constraint firstAttribute="trailing" secondItem="BCI-up-T4y" secondAttribute="trailing" id="e6c-ps-PCb"/>
+                            <constraint firstItem="U5A-DK-P3j" firstAttribute="height" secondItem="kzp-fn-cWa" secondAttribute="height" multiplier="0.4" id="slf-Bv-tBo"/>
+                            <constraint firstItem="1Hd-jr-seP" firstAttribute="baseline" secondItem="6oy-4l-7tz" secondAttribute="baseline" id="tOZ-9v-cJB"/>
+                            <constraint firstItem="C4m-oO-ELG" firstAttribute="top" secondItem="BCI-up-T4y" secondAttribute="bottom" id="twv-6D-DTF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="U5A-DK-P3j" id="ojB-HV-7UX"/>
+                        <outlet property="tableView" destination="BCI-up-T4y" id="ouC-cD-WJl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d5i-Va-1xa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
