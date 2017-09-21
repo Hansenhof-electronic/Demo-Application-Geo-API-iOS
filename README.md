@@ -2,6 +2,8 @@
 
 Simple project to demo the use of odokus 3rd party API calls in a XCode project. 
 
+![](screens.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
